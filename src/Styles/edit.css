@@ -1,0 +1,52 @@
+/* editDecoration.css */
+
+.edit-decoration-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.edit-decoration-container {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 400px;
+  width: 90%;
+}
+
+.edit-decoration-container h3 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.edit-decoration-container form div {
+  margin-bottom: 20px;
+}
+
+.edit-decoration-container .buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.edit-decoration-container button {
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.edit-decoration-container .green-button {
+  background-color: green;
+  color: white;
+}
+
+.edit-decoration-container .grey-button {
+  background-color: #ccc;
+  color: black;
+}

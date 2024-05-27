@@ -1,0 +1,94 @@
+
+  .dropdown-menu {
+    position: absolute;
+    right: 0;
+    background-color: white;
+    color: black;
+    border: 1px solid #ccc;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .dropdown-menu button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 5px;
+  }
+  
+
+  
+  h2 {
+    text-align: center;
+  }
+  
+  .decoration-form {
+    margin: 20px;
+  }
+  
+  .add-container{
+    margin: 10px;
+  }
+  .decoration-form div {
+    margin-bottom: 10px;
+  }
+  
+  .decoration-form label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .decoration-form input,
+  .decoration-form select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .decoration-form button {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .table-container {
+    margin: 10px;
+    overflow-x: auto;
+  }
+  
+  .table-container table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .table-container th,
+  .table-container td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .table-container th {
+    background-color: #f2f2f2;
+    color: #333;
+  }
+  
+  /* Responsive styles */
+  @media (max-width: 768px) {
+    .decoration-item {
+      width: calc(50% - 20px); /* Two items in a row on medium screens */
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .decoration-item {
+      width: calc(100% - 20px); /* One item in a row on small screens */
+    }
+  }
+  
